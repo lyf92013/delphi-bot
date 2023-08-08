@@ -1,0 +1,23 @@
+[tool.pdm]
+
+[project]
+dependencies = [
+    "fastapi==0.95.0",
+    "uvicorn[standard]==0.21.1",
+    "cryptography==40.0.1",
+    "dependency-injector==4.41.0",
+    "pydantic==1.10.7",
+    "python-binance==1.0.17",
+    "binance-futures-connector==3.3.1",
+    "ujson==5.7.0",
+    "loguru>=0.6.0",
+]
+license = {text = "MIT"}
+name = "delphi"
+readme = "README.md"
+requires-python = ">=3.11"
+version = "0.1.0"
+
+[build-system]
+build-backend = "pdm.pep517.api"
+requires = ["pdm-pep517==1.0"]

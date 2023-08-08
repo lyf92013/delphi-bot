@@ -1,0 +1,11 @@
+__pycache__
+__pypackages__
+.vscode
+playground
+.dockerignore
+.env.example
+.gitignore
+.pdm.toml
+.tool-versions
+dockerfile
+fly.toml

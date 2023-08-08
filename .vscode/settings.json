@@ -1,0 +1,18 @@
+{
+  "python.autoComplete.extraPaths": [
+    "__pypackages__/3.11/lib"
+  ],
+  "python.analysis.extraPaths": [
+    "__pypackages__/3.11/lib"
+  ],
+  "cSpell.words": [
+    "fastapi",
+    "fernet",
+    "pydantic",
+    "UJSON"
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+  }
+}
